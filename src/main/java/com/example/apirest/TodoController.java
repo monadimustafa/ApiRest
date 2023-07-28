@@ -10,7 +10,7 @@ import java.util.List;
 public class TodoController {
 
     private TodoService todoService;
-    @GetMapping("")
+    @GetMapping("/")
     public List getTodos(){
         return todoService.getTodos();
     }
